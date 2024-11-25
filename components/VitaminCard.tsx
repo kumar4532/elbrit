@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Image, { StaticImageData } from "next/image"
+import { StaticImageData } from "next/image"
 import { Card, CardContent, CardTitle } from "@/components/ui/card"
 
 interface VitaminCardProps {
