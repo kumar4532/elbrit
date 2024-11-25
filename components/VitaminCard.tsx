@@ -10,7 +10,7 @@ interface VitaminCardProps {
 
 export function VitaminCard({ title, description, image }: VitaminCardProps) {
   return (
-    <Card className="group relative overflow-hidden border-none rounded-xl bg-[#EBF6FF] w-[27%]">
+    <Card className="group relative overflow-hidden border-none rounded-xl bg-[#EBF6FF] w-[28%]">
         <div
             className="absolute inset-0 bg-cover bg-bottom opacity-100"
             style={{

@@ -4,6 +4,8 @@ import bg2 from "../public/bg-2.jpeg"
 import bg3 from "../public/bg-3.jpeg"
 import bg4 from "../public/bg-4.jpeg"
 import bg5 from "../public/bg-5.jpeg"
+import corner from "../public/h2-b4.jpg.png"
+import Image from "next/image"
 
 const vitamins = [
   {
@@ -36,8 +38,8 @@ const vitamins = [
 export function IngredientsSection() {
   return (
     <section className="max-w-7xl mx-auto px-6 py-10">
-      <div className="flex flex-wrap gap-6">
-        <div className="space-y-4 max-w-lg">
+      <div className="flex flex-wrap gap-6 pl-6 -pr-2">
+        <div className="space-y-4 mr-12 max-w-lg">
           <p className="text-sm font-semibold tracking-wide text-[#1B4B5A] uppercase">
             INGREDIENTS
           </p>
@@ -45,7 +47,7 @@ export function IngredientsSection() {
             Better Ingredients
           </h2>
           <p className="text-gray-600 text-[12px] max-w-xl">
-            Only the best when you choose products offered on our platform - high-quality 
+            Only the best when you choose products offered on our platform - high-quality <br /> 
             ingredients for high quality products!
           </p>
         </div>
@@ -59,10 +61,12 @@ export function IngredientsSection() {
         />
         ))}
 
-        <div className="w-[10%] p-4 bg-blue-200">
-          <div className="w-full bg-blue-500 p-4 rounded-br-full"></div>
-          <div></div>
-        </div>
+        <Image 
+          src={corner} 
+          alt="corner"
+          width={90}
+          height={70}
+        />
       </div>
     </section>
   )
