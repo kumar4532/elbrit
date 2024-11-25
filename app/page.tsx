@@ -101,7 +101,7 @@ export default function Home() {
         </div>
       </main>
 
-      <div className="bg-[#17414F] p-14 mx-auto -mt-56 mb-4 w-4/5 rounded-[65] relative">
+      <div className="bg-[#17414F] p-14 mx-auto -mt-56 mb-4 w-4/5 rounded-[65px] relative">
         <Perks />
       </div>
 

@@ -59,7 +59,7 @@ const CircleAndInfo = ({ icon, info }: {icon: StaticImageData, info: infoData}) 
 );
   
 const TopCircleRow = () => (
-    <div className="flex justify-evenly -mt-[110]">
+    <div className="flex justify-evenly -mt-[110px]">
         {icons.slice(0, 3).map((icon, index) => (
             <CircleAndInfo key={index} icon={icon} info={infoData[index]} />
         ))}

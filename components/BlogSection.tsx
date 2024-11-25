@@ -102,7 +102,7 @@ export default function BlogSection() {
                     <Card 
                         key={index} 
                         className={`border-none overflow-hidden shadow-xl ${
-                        post.isLarge ? "h-[400px] -mt-[200]" : "h-[200px]"
+                        post.isLarge ? "h-[400px] -mt-[200px]" : "h-[200px]"
                         } flex-1`}
                     >
                         <div className={`relative h-full`}>
